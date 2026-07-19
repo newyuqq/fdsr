@@ -253,7 +253,7 @@ def build_application() -> Application:
 
 
 def main():
-    if config.BOT_TOKEN in ("", "ТОКЕН БОТА СЮДА"):
+    if config.BOT_TOKEN in ("", "8321094607:AAHRYO0m8pvLIdh9ZhAoJV8O9zwRb0k0rMg"):
         raise SystemExit(
             "BOT_TOKEN is not set. Put it in a .env file or the BOT_TOKEN "
             "environment variable (see .env.example)."
